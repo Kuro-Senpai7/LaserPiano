@@ -1,3 +1,5 @@
+//By Christopher Lackey
+
 let port;
 let reader;
 let receivedData = "";
@@ -191,4 +193,3 @@ function stopNoteIfPlaying(index) {
 
 function mousePressed() {}
 
-//By Christopher Lackey
