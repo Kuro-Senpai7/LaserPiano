@@ -1,3 +1,5 @@
+//By Christopher Lackey
+
 int previousDigital[7] = { -1, -1, -1, -1, -1, -1, -1 };  // Initialize the previous state of digital pins
 
 void setup() {
@@ -36,5 +38,5 @@ void loop() {
   Serial.print(",");
   Serial.println(analogRead(A1));  // End line
 
-  delay(500);  // Adjust delay as needed for sampling rate
+  delay(50);  // Adjust delay as needed for sampling rate
 }
